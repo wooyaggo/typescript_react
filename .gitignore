@@ -58,7 +58,6 @@ typings/
 .env
 
 bin
-
 public/js
-
 **/.gen
+.awcache

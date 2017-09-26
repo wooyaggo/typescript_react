@@ -9,6 +9,7 @@ module.exports = {
 			script: "bin/server",
 			watch: [
 				"bin/",
+				"public/",
 			],
 			source_map_support: true,
 			node_args: [ "--debug=5859" ],
