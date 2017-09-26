@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./bin",
+    "jsx": "react",
+
+    "strict": true,
+    "sourceMap": true,
+    "sourceRoot": "./src",
+
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "awesomeTypescriptLoaderOptions": {
+    "useBabel": true,
+    "useCache": true
+  }
+}
