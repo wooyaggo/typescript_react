@@ -5,10 +5,7 @@ import { renderToString } from 'react-dom/server';
 
 import { Req, Res } from '../';
 
-interface HtmlList{
-	[key: string]: string,
-}
-const htmlList: HtmlList = {};
+const htmlList: {[key:string]: string} = {};
 
 function getHTML( $name: string ): string{
 	if( htmlList[ $name ] == null ){
