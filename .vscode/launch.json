@@ -6,7 +6,7 @@
 			"type": "node",
 			"request": "launch",
 			"cwd": "${workspaceRoot}",
-			"program": "${workspaceRoot}/src/index.ts",
+			"program": "${workspaceRoot}/src/server/index.ts",
 
 			"stopOnEntry": false,
 			"runtimeExecutable": null,
@@ -31,7 +31,7 @@
 			"port": 5859,
 			"address": "localhost",
 			"restart": true,
-			"program": "${workspaceRoot}/bin/index.js",
+			"program": "${workspaceRoot}/bin/server/index.js",
 			"sourceMaps": true,
 			"outFiles": [
 				"${workspaceRoot}/bin/**/*.js"
