@@ -5,7 +5,7 @@
 ```
 $ npm run init	// install packages global and modules both.
 $ npm run build	// build webpack and tsc compile.
-$ npm run dev	// luanch app.
+$ npm run dev	// launch app.
 ```
 
 ## 1. Setting
